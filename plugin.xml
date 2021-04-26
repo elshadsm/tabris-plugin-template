@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="tabris-plugin-template"
+        version="1.0.0">
+
+  <name>Tabris.js Plugin Template</name>
+  <description>Template project for the custom plugin for Tabris.js</description>
+  <author>Elshad Seyidmammadov</author>
+  <license>Revised BSD License (3-clause license)</license>
+  <repo>https://github.com/elshadsm/tabris-plugin-template.git</repo>
+  <issue>https://github.com/elshadsm/tabris-plugin-template/issues</issue>
+
+  <js-module src="www/CustomButton.js" name="CustomButton">
+    <clobbers target="elshadsm.CustomButton" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <meta-data
+          android:name="com.eclipsesource.tabris.android.HANDLER.com.elshadsm.custombutton"
+          android:value="com.elshadsm.custombutton.CustomButtonHandler" />
+    </config-file>
+
+    <source-file src="src/android/com/elshadsm/custombutton/CustomButtonHandler.kt"
+                 target-dir="src/com/elshadsm/custombutton" />
+
+  </platform>
+
+</plugin>

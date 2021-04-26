@@ -1,0 +1,39 @@
+{
+  "name": "tabris-plugin-template",
+  "version": "1.0.0",
+  "description": "Template project for the custom plugin for Tabris.js",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "tabris-plugin-template",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elshadsm/tabris-plugin-template.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "tabris",
+    "tabris.js",
+    "template"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova-android": ">=8.0.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "tabris": "nightly"
+  },
+  "author": "Elshad Seyidmammadov",
+  "license": "Revised BSD License (3-clause license)",
+  "bugs": {
+    "url": "https://github.com/elshadsm/tabris-plugin-template/issues"
+  },
+  "homepage": "https://github.com/elshadsm/tabris-plugin-template#readme"
+}

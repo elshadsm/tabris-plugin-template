@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.elshadsm.custombutton.example"
+        version="1.0.0"
+        android-packageName="com.elshadsm.custombutton.example"
+        android-versionCode="1">
+  <name>Tabris.js Template Plugin Example</name>
+  <description>The example project for the template plugin.</description>
+  <author email="elshad@eclipsesource.com" href="https://tabris.com">Elshad Seyidmammadov</author>
+
+  <preference name="EnableDeveloperConsole" value="true" />
+
+  <plugin name="tabris-plugin-template" spec="https://github.com/elshadsm/tabris-plugin-template.git" />
+
+  <platform name="android">
+
+    <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application" mode="merge">
+      <application android:usesCleartextTraffic="true" />
+    </edit-config>
+
+    <resource-file src="res/android/values/custombutton_themes.xml"
+                   target="app/src/main/res/values/custombutton_themes.xml" />
+
+    <preference name="Theme" value="@style/Theme.CustomButton" />
+
+  </platform>
+
+</widget>
