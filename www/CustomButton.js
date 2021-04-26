@@ -1,4 +1,4 @@
-class CustomButton extends Widget {
+class CustomButton extends tabris.Widget {
 
   get _nativeType() {
     return 'elshadsm.CustomButton';

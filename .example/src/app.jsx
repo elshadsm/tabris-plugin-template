@@ -6,5 +6,7 @@ contentView.append(
     left={16}
     right={16}
     centerY
+    text='Custom Button'
+    maxLines={1}
     onSelect={() => console.log('Button Selected!')} />
 );

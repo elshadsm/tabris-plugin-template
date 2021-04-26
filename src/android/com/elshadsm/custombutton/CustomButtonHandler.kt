@@ -8,7 +8,7 @@ import com.eclipsesource.v8.V8Object
 @Suppress("PARAMETER_NAME_CHANGED_ON_OVERRIDE")
 class CustomButtonHandler(private val scope: ActivityScope) : ViewHandler<Button>(scope) {
 
-  override val type = "com.elshadsm.custombutton.CustomButton"
+  override val type = "elshadsm.CustomButton"
 
   override val properties by lazy {
     super.properties + listOf<Property<Button, *>>(
