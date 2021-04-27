@@ -5,8 +5,8 @@
         version="1.0.0"
         android-packageName="com.elshadsm.custombutton.example"
         android-versionCode="1">
-  <name>Tabris.js Template Plugin Example</name>
-  <description>The example project for the template plugin.</description>
+  <name>Example Tabris.js Template Plugin</name>
+  <description>The example project for the Tabris.js template plugin.</description>
   <author email="elshad@eclipsesource.com" href="https://tabris.com">Elshad Seyidmammadov</author>
 
   <preference name="EnableDeveloperConsole" value="true" />
@@ -19,10 +19,10 @@
       <application android:usesCleartextTraffic="true" />
     </edit-config>
 
-    <resource-file src="res/android/values/custombutton_themes.xml"
-                   target="app/src/main/res/values/custombutton_themes.xml" />
+    <resource-file src="res/android/values/custom_button_example_themes.xml"
+                   target="app/src/main/res/values/custom_button_example_themes.xml" />
 
-    <preference name="Theme" value="@style/Theme.CustomButton" />
+    <preference name="Theme" value="@style/Theme.CustomButtonExample" />
 
   </platform>
 

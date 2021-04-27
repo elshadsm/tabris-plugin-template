@@ -1,6 +1,6 @@
 {
-  "title": "Tabris.js Template Plugin Example",
-  "description": "The example project for the template plugin.",
+  "title": "Example Tabris.js Template Plugin",
+  "description": "The example project for the Tabris.js template plugin.",
   "main": "dist/app.js",
   "dependencies": {
     "tabris": "nightly"

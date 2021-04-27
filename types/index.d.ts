@@ -1,4 +1,4 @@
-import { Listeners, Widget } from 'tabris';
+import { EventObject, Listeners, Widget } from 'tabris';
 
 declare global {
 
@@ -6,7 +6,7 @@ declare global {
 
     export class CustomButton extends Widget {
 
-      public readonly onSelect: Listeners<{ target: CustomButton }>;
+      public readonly onSelect: Listeners<EventObject<this>>;
 
       public text: string;
       public maxLines: number;

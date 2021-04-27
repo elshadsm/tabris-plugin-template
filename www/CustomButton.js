@@ -1,3 +1,4 @@
+
 class CustomButton extends tabris.Widget {
 
   get _nativeType() {

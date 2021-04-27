@@ -1,6 +1,6 @@
-# Tabris.js Template Plugin Example
+# Example Tabris.js Template Plugin
 
-The example project for the template plugin.
+The example project for the Tabris.js template plugin.
 
 ## Prerequisites
 

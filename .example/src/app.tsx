@@ -1,5 +1,7 @@
 import { contentView } from 'tabris';
 
+declare const elshadsm: any;
+
 contentView.append(
   <elshadsm.CustomButton
     id='customButton'
