@@ -18,16 +18,16 @@ The following snippet shows how the `tabris-plugin-template` plugin can be used 
 
 ```js
 new elshadsm.CustomButton({
-  left: 0, right: 0, top: 0, bottom: 0,
+  left: 0, top: 0, right: 0, bottom: 0,
   text: 'Button'
 }).appendTo(tabris.contentView);
 ```
 
-A more elaborate example can be found in the [example](.example/) folder. It provides a Tabris.js project that demonstrates the various features of the `tabris-plugin-template` plugin. Consult the [README](example/README.md) of the example for build instructions.
+A more elaborate example can be found in the [.example](.example/) folder. It provides a Tabris.js project that demonstrates the various features of the `tabris-plugin-template` plugin. Consult the [README](.example/README.md) of the example for build instructions.
 
 ## Integrating the plugin
 
-The Tabris.js website provides detailed information on how to [integrate custom widgets](https://tabrisjs.com/documentation/latest/build#adding-plugins) in your Tabris.js app. To add the plugin to your app add the following entry in your apps `config.xml`:
+The Tabris.js website provides detailed information on how to [integrate custom widgets](https://docs.tabris.com/latest/build.html#integrating-cordova-plugins) in your Tabris.js app. To add the plugin to your app add the following entry in your apps `config.xml`:
 
 ```xml
 <!-- Not yet on npm -->
