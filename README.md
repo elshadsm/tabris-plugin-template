@@ -10,7 +10,7 @@ The following table shows the plugin branches and the minimum required Tabris.js
 
 | Version | Branch | Minimum Tabris.js version |
 |:---:|:---:|:---:|
-| 1.0.0 | [`master`](https://github.com/eclipsesource/tabris-plugin-wirecard-epos/tree/master) | [3.7.2](https://github.com/eclipsesource/tabris-js/releases/tag/v3.7.2) |
+| 1.0.0 | [`master`](https://github.com/elshadsm/tabris-plugin-template/tree/master) | [3.7.2](https://github.com/eclipsesource/tabris-js/releases/tag/v3.7.2) |
 
 ## Example
 
